@@ -1,5 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("./tasks/account.task");
+require("./tasks/locktest.task");
 const fs = require('fs');
 
 const accounts = {
